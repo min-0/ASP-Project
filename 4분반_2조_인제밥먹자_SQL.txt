@@ -1,0 +1,38 @@
+//회원 디비
+CREATE TABLE [dbo].[DBuser] (
+    [name]      VARCHAR (200) NULL,
+    [id]        VARCHAR (200) NOT NULL,
+    [password]  VARCHAR (200) NULL,
+    [nick_name] VARCHAR (200) NULL,
+    [email]     VARCHAR (200) NULL,
+    [sex]       CHAR (10)     NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+);
+
+//가게 디비
+CREATE TABLE [dbo].[infoDB] (
+    [id]         INT           IDENTITY (1, 1) NOT NULL,
+    [nickname]   VARCHAR (50)  NULL,
+    [name]       VARCHAR (50)  NULL,
+    [call_num]   VARCHAR (50)  NULL,
+    [add_dong]   VARCHAR (50)  NULL,
+    [add_detail] VARCHAR (50)  NULL,
+    [food_type]  VARCHAR (50)  NULL,
+    [star]       FLOAT (53)    NULL,
+    [content]    VARCHAR (500) NULL,
+    [image]      VARCHAR (100) NULL,
+    [time]       VARCHAR (50)  NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+);
+
+//북마크 디비
+CREATE TABLE [dbo].[Bookmark] (
+    [nickname]  VARCHAR (200) NOT NULL,
+    [id]        INT           NOT NULL,
+    [name]      VARCHAR (200) NULL,
+    [food_type] VARCHAR (50)  NULL,
+    [star]      FLOAT (53)    NULL,
+    [writer]    VARCHAR (200) NOT NULL,
+    PRIMARY KEY CLUSTERED ([nickname] ASC, [id] ASC)
+);
+
