@@ -1,0 +1,126 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="home.master.cs" Inherits="LetsEatNow.Home.home" %>
+
+<!DOCTYPE html>
+<script runat="server">
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (this.Page.User.Identity.IsAuthenticated)
+        {
+
+            LinkButton1.Visible = true;
+            LinkButton3.Visible = false;
+            LinkButton2.Visible = false;
+        }
+        else
+        {
+            LinkButton1.Visible = false;
+            LinkButton3.Visible = true;
+            LinkButton2.Visible = true;
+        }
+    }
+
+    protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+    {
+
+    }
+
+    protected void LinkButton1_Click(object sender, EventArgs e)
+    {
+
+        FormsAuthentication.SignOut();
+        Response.Redirect("../MainPage/main.aspx");
+    }
+
+    protected void LinkButton4_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void LinkButton2_Click(object sender, EventArgs e)
+    {
+
+        
+    }
+
+    protected void LinkButton3_Click(object sender, EventArgs e)
+    {
+
+    }
+</script>
+
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 304px;
+        }
+        .auto-style4 {
+            width : 100%;
+            height: 119px;
+            text-align: center;
+            color: #FF9999;
+        }
+        .auto-style5 {
+            width : 100%;
+            text-align: right;
+            height: 30px;
+        }
+        .auto-style7 {
+            width: 100px;
+            height: 440px;
+        }
+        .auto-style8 {
+            height: 150px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="auto-style5">
+&nbsp;<asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">로그아웃</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click" PostBackUrl="~/로그인 Page.aspx">로그인</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="~/회원가입Page.aspx" OnClick="LinkButton3_Click">회원가입</asp:LinkButton>
+&nbsp;&nbsp;
+        </div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style4" style="background-color: #FDEADA">
+                    <br />
+                    <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Image/Home Title.PNG" OnClick="ImageButton1_Click" PostBackUrl="~/MainPage/main.aspx" />
+                    <asp:Panel ID="Panel1" runat="server">
+                        <div class="auto-style5">
+                            팀명 : 인제밥먹자</div>
+                    </asp:Panel>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="auto-style1">
+                        <tr>
+                            <td class="auto-style7"></td>
+                            <td class="auto-style8">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            </table>
+    </form>
+</body>
+</html>
