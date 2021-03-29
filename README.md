@@ -38,6 +38,10 @@
 
 ![음식 종류 선택 후](https://user-images.githubusercontent.com/66067273/112814650-79fef180-90ba-11eb-9553-d13e388beb70.png)
 
+- 가게 상세보기 시
+
+![상세보기](https://user-images.githubusercontent.com/66067273/112815240-11644480-90bb-11eb-8f8b-86eae25a8a31.png)
+
 > 모든 리뷰 페이지
 
 ![all 리뷰 페이지](https://user-images.githubusercontent.com/66067273/112814674-7f5c3c00-90ba-11eb-9d45-fb6faae04750.jpg)
