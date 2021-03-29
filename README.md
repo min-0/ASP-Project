@@ -1,4 +1,3 @@
-# Let's Eat Now
 
 ## [인제밥먹자] 지역 맛집 리뷰 사이트 프로젝트
 
@@ -16,72 +15,68 @@
 
 - 로그인 전
 
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled.png)
-
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%201.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%201.png)
+![비로그인 메인 상단](https://user-images.githubusercontent.com/66067273/112814437-4328db80-90ba-11eb-86a6-0bfb15bdff0f.png)
+![비로그인 메인 하단](https://user-images.githubusercontent.com/66067273/112814457-48862600-90ba-11eb-8fc6-97c668d8c771.png)
 
 - 로그인 후
 
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%202.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%202.png)
-
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%203.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%203.png)
+![로그인 메인 상단](https://user-images.githubusercontent.com/66067273/112814551-5fc51380-90ba-11eb-831c-459eb5e8f9aa.png)
+![로그인 메인 하단](https://user-images.githubusercontent.com/66067273/112814564-62276d80-90ba-11eb-9cec-26e17f8b44b3.png)
 
 > 회원가입 페이지
 
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%204.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%204.png)
-
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%205.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%205.png)
+![회원가입 상단](https://user-images.githubusercontent.com/66067273/112814593-694e7b80-90ba-11eb-9e0c-4e2913e2b42c.png)
+![회원가입 하단](https://user-images.githubusercontent.com/66067273/112814597-6b183f00-90ba-11eb-9ae0-8a1eb3634955.png)
 
 > 음식 카테고리 페이지
 
 - 종류 선택 전
 
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%206.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%206.png)
+![음식 종류 선택 전](https://user-images.githubusercontent.com/66067273/112814633-75d2d400-90ba-11eb-8069-b2d2db4b7892.png)
 
 - 종류 선택 시
 
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%207.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%207.png)
+![음식 종류 선택 후](https://user-images.githubusercontent.com/66067273/112814650-79fef180-90ba-11eb-9553-d13e388beb70.png)
 
 > 모든 리뷰 페이지
 
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%208.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%208.png)
+![all 리뷰 페이지](https://user-images.githubusercontent.com/66067273/112814674-7f5c3c00-90ba-11eb-9d45-fb6faae04750.jpg)
 
 > 상세 리뷰 페이지
 
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%209.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%209.png)
-
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%2010.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%2010.png)
+![상세 리뷰 상단](https://user-images.githubusercontent.com/66067273/112814709-86834a00-90ba-11eb-809f-fda5d9194d4d.png)
+![상세 리뷰 하단](https://user-images.githubusercontent.com/66067273/112814719-884d0d80-90ba-11eb-8beb-2d7132befa5e.jpg)
 
 > 리뷰 작성 페이지
 
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%2011.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%2011.png)
+![리뷰 작성](https://user-images.githubusercontent.com/66067273/112814748-900cb200-90ba-11eb-927d-8fe9da58e36d.jpg)
 
 ⚠️ 비 로그인 시 로그인 창으로 이동하여 로그인 후, 리뷰 작성 가능!
 
 > 마이 페이지
 
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%2012.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%2012.png)
+![마이 페이지](https://user-images.githubusercontent.com/66067273/112814777-96029300-90ba-11eb-954d-09be45eddfdc.png)
 
 - REVIEW
 
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%2013.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%2013.png)
+![마이 리뷰](https://user-images.githubusercontent.com/66067273/112814801-9d29a100-90ba-11eb-8ffd-c45776a196fb.png)
 
 사용자가 작성한 리뷰 목록이 나타나는 창
 
 - BOOKMARK
 
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%2014.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%2014.png)
+![마이 북마크](https://user-images.githubusercontent.com/66067273/112814816-a1ee5500-90ba-11eb-9e94-c5ce2e1a5a3f.png)
 
 사용자가 즐겨찾기 해둔 리뷰 목록이 나타나는 창
 
 - INFORMATION
 
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%2015.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%2015.png)
+![개인 정보](https://user-images.githubusercontent.com/66067273/112814829-a61a7280-90ba-11eb-9213-0a88b359ac0c.png)
 
 회원가입 시 작성한 사용자 개인 정보 페이지, 닉네임이나 비밀번호 수정 가능
 
 - DELETE ACCOUNT
 
-![Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%2016.png](Let's%20Eat%20Now%202db145ceb32e43618c60493d3b777f42/Untitled%2016.png)
+![회원 탈퇴](https://user-images.githubusercontent.com/66067273/112814902-ba5e6f80-90ba-11eb-82ee-72a301275ca2.png)
 
 회원 탈퇴 가능 페이지
